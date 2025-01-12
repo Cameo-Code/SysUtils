@@ -47,9 +47,9 @@ namespace PackTasks
             info.RedirectStandardError = false;
             info.RedirectStandardOutput = false;
 
-            Console.Write(info.FileName);
-            Console.Write(" ");
-            Console.WriteLine(string.Join(" ", info.Arguments));
+            // Console.Write($">>> {info.FileName}");
+            // Console.Write(" ");
+            // Console.WriteLine(string.Join(" ", info.Arguments));
             Process p = new Process();
             p.StartInfo = info;
             if (!p.Start())
@@ -64,7 +64,7 @@ namespace PackTasks
             return Task.Run(() =>
             {
                 res.isSuccess = p.WaitForExit(timeout);
-                Console.WriteLine($"error code: {p.ExitCode}");
+                //Console.WriteLine($"error code: {p.ExitCode}");
                 if (!res.isSuccess)
                 {
                     res.error = "packing action timed out"; 
