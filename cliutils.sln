@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "diskspace", "diskspace\diskspace.csproj", "{10C3DD25-DEA5-4E60-BE55-52FCAC974120}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libc", "libc\libc.csproj", "{2BBD939C-D0A9-4C59-8C50-D9234C14583F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10C3DD25-DEA5-4E60-BE55-52FCAC974120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C3DD25-DEA5-4E60-BE55-52FCAC974120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C3DD25-DEA5-4E60-BE55-52FCAC974120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C3DD25-DEA5-4E60-BE55-52FCAC974120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BBD939C-D0A9-4C59-8C50-D9234C14583F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BBD939C-D0A9-4C59-8C50-D9234C14583F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BBD939C-D0A9-4C59-8C50-D9234C14583F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BBD939C-D0A9-4C59-8C50-D9234C14583F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CB3DD91-3267-4C27-86FA-1076BEA3D108}
+	EndGlobalSection
+EndGlobal
