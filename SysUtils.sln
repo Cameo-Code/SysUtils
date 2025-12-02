@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31727.386
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipTest", "ZipTest\ZipTest.csproj", "{E3FBF0A1-58CB-4186-ABF6-FCFCA686049E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackTasks", "ZipTasks\PackTasks.csproj", "{9EDD7E01-78C1-44A5-9727-7BD5C34FF4A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unixeoln", "unixeoln\unixeoln.csproj", "{C467682B-4F63-4209-9408-065A09BEA1FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9EDD7E01-78C1-44A5-9727-7BD5C34FF4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EDD7E01-78C1-44A5-9727-7BD5C34FF4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EDD7E01-78C1-44A5-9727-7BD5C34FF4A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C467682B-4F63-4209-9408-065A09BEA1FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C467682B-4F63-4209-9408-065A09BEA1FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C467682B-4F63-4209-9408-065A09BEA1FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C467682B-4F63-4209-9408-065A09BEA1FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
